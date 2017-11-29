@@ -1,0 +1,107 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: .14rem;
+  font-style: normal;
+  font-weight: normal; }
+
+ul, li {
+  list-style: none; }
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 625%;
+  font-family: "黑体"; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+
+input, button {
+  outline: 0; }
+
+button {
+  cursor: pointer; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #ccc; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: .4rem;
+  background: #393A3F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .15rem; }
+  header a {
+    color: #fff; }
+
+section {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.5); }
+
+.box {
+  width: 95%;
+  height: auto;
+  margin: .4rem auto;
+  background: #fff;
+  padding: .2rem .2rem .4rem;
+  border-radius: .12rem; }
+  .box .head {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff; }
+    .box .head img {
+      width: 60%;
+      display: block; }
+    .box .head p {
+      line-height: .3rem;
+      color: #4C5154;
+      font-size: .18rem; }
+  .box .sec {
+    margin-top: .2rem;
+    flex: 1;
+    align-items: center;
+    background: #fff; }
+    .box .sec p {
+      line-height: .5rem;
+      width: 95%;
+      border-bottom: 1px solid #ccc; }
+      .box .sec p i.icon {
+        color: #D2FFEA;
+        font-size: .2rem; }
+      .box .sec p input {
+        border: 0;
+        padding-left: .1rem; }
+    .box .sec button {
+      background: #2FBA77;
+      width: 95%;
+      height: .35rem;
+      border-radius: .12rem;
+      color: #fff;
+      text-align: center;
+      border: 0;
+      margin-top: .3rem; }
+
+footer {
+  height: .3rem;
+  background: rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=style.css.map */
